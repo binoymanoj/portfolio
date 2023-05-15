@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from "next/image";
 import linkedin from "@/assets/linkedin.svg";
 import github from "@/assets/github.svg";
