@@ -31,9 +31,14 @@
     }
 
     .about{
-      height: 710px;
-      padding: 30px;
+      padding-bottom: 50px;
       padding-top: 60px;
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    .animation{
+      max-width: 300px;
     }
     
     .projects{
