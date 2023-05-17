@@ -1,5 +1,6 @@
+"use client";
+
 import React from 'react';
-import Image from 'next/image';
 import Lottie from "lottie-react";
 import codinganimation from "@/assets/codinganimation.json"
 
