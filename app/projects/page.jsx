@@ -69,7 +69,7 @@ function Projects() {
                 </div>
 
                 {/* blog page card */}
-                <div className="card w-[550px] h-[670px] flex-wrap card-side justify-center shadow-xl bg-gray-100 dark:bg-base-100 dark:text-gray-50">
+                <div className="card w-[550px] flex-wrap card-side justify-center shadow-xl bg-gray-100 dark:bg-base-100 dark:text-gray-50">
                     <div className=''>
                         <Link href="https://binoymanojblog.netlify.app">
                             <Image src={blogpagescreenshot} width="550" alt="Movie" className='p-7 rounded-[48px] projectsc' />
