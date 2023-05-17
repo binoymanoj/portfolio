@@ -24,7 +24,7 @@ function Projects() {
             <div className='flex flex-wrap gap-12 items-center justify-center'>
 
                 {/* portfolio site */}
-                <div className="card w-[550px] h-[670px] flex-wrap card-side justify-center shadow-xl bg-gray-100 dark:bg-base-100 dark:text-gray-50">
+                <div className="card w-[550px] flex-wrap card-side justify-center shadow-xl bg-gray-100 dark:bg-base-100 dark:text-gray-50">
                     <div className=''>
                         <Link href="/">
                             <Image src={portfolioscreenshot} width="550" alt="Movie" className='p-7 rounded-[48px] projectsc' />
