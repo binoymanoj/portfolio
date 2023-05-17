@@ -1,13 +1,14 @@
 import React from 'react';
 import Image from 'next/image';
-import aboutpageimg from "@/assets/aboutpageimg.jpeg";
+import Lottie from "lottie-react";
+import codinganimation from "@/assets/codinganimation.json"
 
 function About() {
     return (
-        <div id="about" className='about bg-gray-50 dark:bg-zinc-700 text-black dark:text-white'>
+        <div id="about" className='about bg-white dark:bg-zinc-700 text-black dark:text-white'>
             <div className="h-[600px] flex items-center w-100 justify-center">
                 <div className='flex flex-wrap gap-16 items-center justify-center' >
-                    <Image src={aboutpageimg} alt="image" height="200" width="350" priority className='rounded-xl relative' />
+                    <Lottie loop={true} animationData={codinganimation} className='relative w-96 ' />
                     <div className="max-w-lg space-y-3">
                         <h4 className='text-lg text-[var(--primary-color)] font-bold'>ABOUT ME</h4>
                         <h3 className='text-2xl font-bold'>A dedicated Front-end Developer based in Tamilnadu, India. 📍</h3>
