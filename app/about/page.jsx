@@ -9,7 +9,7 @@ function About() {
         <div id="about" className='about w-100 bg-white md:py-28 lg:py-36 dark:bg-zinc-700 text-black dark:text-white'>
             <div className="flex items-center justify-center">
                 <div className='flex flex-wrap gap-16 items-center justify-center' >
-                    <Lottie loop={true} animationData={codinganimation} className='relative w-96 animation' />
+                    <Lottie loop={true} animationData={codinganimation} className='relative w-96 animation rounded-lg' />
                     <div className="max-w-lg space-y-3">
                         <h4 className='text-lg text-[var(--primary-color)] font-bold'>ABOUT ME</h4>
                         <h3 className='text-2xl font-bold'>A dedicated Front-end Developer based in Tamilnadu, India. 📍</h3>
